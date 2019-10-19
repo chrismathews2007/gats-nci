@@ -1,0 +1,70 @@
+.footer{
+    background: $primary;
+
+    .divider{
+        height: 50px;
+        width: 1px;
+        background: $lite-blue;
+    }
+
+    .quote{
+        color: $lite-blue;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer-info-links{
+        color: #fff;
+
+        span{
+            color: $lite-blue;
+        }
+        .explore{
+            color: $lite-blue;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            position: absolute;
+            bottom: -17px;
+            left: 0;
+            -webkit-transform: rotate(270deg);
+            -moz-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            transform: rotate(270deg);
+            -webkit-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+            -ms-transform-origin: 0 0;
+            -o-transform-origin: 0 0;
+            transform-origin: 0 0;
+        }
+
+        
+    }
+
+    .line{
+        color: $lite-blue;
+    }
+    .footer-bottom{
+        border-top:1px solid $lite-blue;
+        color: $lite-gray;
+
+        li{
+            padding: 0 15px;
+            border-left: 1px solid $lite-blue;
+
+            &:first-child{
+                padding-left:0;
+                border: none;
+            }
+        }
+        
+            a{
+                color: $lite-gray;
+
+                &:hover{
+                color: $lite-gray;
+                text-decoration: none;
+                }
+            }
+    }
+}

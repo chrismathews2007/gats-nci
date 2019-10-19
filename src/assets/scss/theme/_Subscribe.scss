@@ -1,0 +1,23 @@
+.subscribe{
+    background: $dark-gray;
+    color: #fff;
+    padding: 10px 0;
+
+    .subscribe-input{
+        input{
+            width: 350px;
+            padding: .375rem .75rem;
+            border-radius: 50px 0 0 50px;
+            border: none;
+        }
+        button{
+            background: $danger;
+            color: $white;
+            border-radius: 0px 50px 50px 0;
+        }
+    }
+}
+
+:focus {
+    outline: none;
+}
